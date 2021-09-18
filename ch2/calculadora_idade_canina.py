@@ -1,9 +1,7 @@
-prompt = 'Olá, qual é o nome do seu dog?'
-dog_name = input(prompt)
+dog_name = input('Olá, qual é o nome do seu dog? ')
+dog_age = input('legal, e qual é a idade dele? ' )
+human_age = int(dog_age) * 7
+frase_retorno = ('A idade do ' + dog_name + ' em anos humanos é ' )
 
-prompt = 'legal, e qual é a idade dele?'
-dog_age = input(prompt)
-
-age = dog_age * (7)
-
-print ('Seu dog ' + dog_name + ' tem ' + age + ' em anos humanos!' )
+print (frase_retorno)
+print (human_age)
