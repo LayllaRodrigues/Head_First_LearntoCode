@@ -1,3 +1,6 @@
+from ast import Index
+
+
 score = [60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69,
          34, 55, 51,52, 44, 51, 69, 64, 66, 55, 52, 61,
          46, 31, 57, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44]
@@ -26,12 +29,30 @@ for i in range(length):
         
 print('solutions with the highest score:', best_solutions)
 
+# costs = 100.0
+# most_efective = 0
+
+# for i in range(length):
+#     if score[i] == high_score and cost[i] < costs:
+#         most_efective = i
+#         costs = cost[i]
+        
+# print('Solution', most_efective,
+#       'is the most effective with cost of', cost[most_efective])
+
+
+#uma maneira mais eficiente de resolver isso, seria:
+
 costs = 100.0
 most_efective = 0
-for i in range(length):
-    if score[i] == high_score and cost[i] < costs:
-        most_efective = i
-        costs = cost[i]
+
+for i in range(len(best_solutions)):
+    index = best_solutions[i]
+    if  costs > cost[index]:
+        most_efective = index
+        costs = cost[index]
+        
 print('Solution', most_efective,
       'is the most effective with cost of', cost[most_efective])
+
 
