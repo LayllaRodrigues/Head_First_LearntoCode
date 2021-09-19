@@ -41,7 +41,7 @@ print('solutions with the highest score:', best_solutions)
 #       'is the most effective with cost of', cost[most_efective])
 
 
-#uma maneira mais eficiente de resolver isso, seria:
+#uma maneira mais eficiente de calcula a eficieia x custo da formula, seria:
 
 costs = 100.0
 most_efective = 0
@@ -55,4 +55,46 @@ for i in range(len(best_solutions)):
 print('Solution', most_efective,
       'is the most effective with cost of', cost[most_efective])
 
+# #Listas são uma estrutura de dados para dados ordenados.
 
+# Uma lista contém um conjunto de itens, cada um com seu próprio índice .
+
+# As listas usam um índice baseado em zero, onde o primeiro item está no índice 0.
+
+# Você pode usar a lenfunção para obter o número de itens em uma lista.
+
+# Você pode acessar qualquer item usando seu índice. Por exemplo, use my_list[1]para acessar o segundo item da lista.
+
+# Você também pode usar índices negativos para identificar itens começando no final da lista.
+
+# Tentar acessar um item além do final da lista resultará em um erro de índice de tempo de execução.
+
+# Atribuir um valor a um item existente mudará seu valor.
+
+# Atribuir um valor a um item que não existe na lista resulta em um erro de tempo de execução de índice “fora dos limites”.
+
+# Os itens da lista podem conter valores de qualquer tipo.
+
+# Nem todos os valores em uma lista precisam ser do mesmo tipo.
+
+# Listas que contêm valores de diferentes tipos são chamadas de heterogêneas.
+
+# Você pode criar uma lista vazia com my_list = [ ].
+
+# Você pode adicionar um novo valor a uma lista usando append.
+
+# Você pode estender uma lista com os itens de outra lista com extend.
+
+# Você pode criar uma nova lista a partir de duas listas existentes simplesmente adicionando-as com +.
+
+# Use insertpara adicionar um novo item a um índice em uma lista existente.
+
+# O forloop é comumente usado para iterar por meio de sequências, como listas.
+
+# O whileloop é usado com mais frequência quando você não sabe quantas vezes precisa fazer o loop e está efetuando o loop até que uma condição seja atendida. O forloop é mais frequentemente usado quando você sabe o número de vezes que o loop precisa ser executado.
+
+# A rangefunção cria um intervalo de inteiros.
+
+# Você pode iterar em intervalos com o forloop.
+
+# A strfunção converte um número em uma string.
