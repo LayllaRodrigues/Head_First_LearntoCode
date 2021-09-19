@@ -3,6 +3,12 @@ score = [60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69,
          46, 31, 57, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44]
 
 
+cost = [.25, .27, .25, .25,.25,.25,
+        .33, .31, .25, .29, .27, .22,
+        .31, .25, .25, .33, .21, .25,
+        .25, .25, .28, .25, .24, .25,
+        .25, .25, .27, .25, .26, .29,]
+
 high_score = 0
 length = len(score)
 for i in range(length):
@@ -19,4 +25,13 @@ for i in range(length):
         best_solutions.append(i)
         
 print('solutions with the highest score:', best_solutions)
+
+costs = 100.0
+most_efective = 0
+for i in range(length):
+    if score[i] == high_score and cost[i] < costs:
+        most_efective = i
+        costs = cost[i]
+print('Solution', most_efective,
+      'is the most effective with cost of', cost[most_efective])
 
