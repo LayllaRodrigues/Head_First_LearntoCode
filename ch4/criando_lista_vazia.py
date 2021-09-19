@@ -17,3 +17,7 @@ print(menu)
 
 del menu[0]
 print (menu)
+
+#adicione uma lista a outra
+menu.extend(['bbq', 'tacos'])
+print (menu)
