@@ -21,3 +21,11 @@ print (menu)
 #adicione uma lista a outra
 menu.extend(['bbq', 'tacos'])
 print (menu)
+
+#insira itens em sua lista
+# Digamos que você realmente precise adicionar um item no meio da sua lista.
+# Use a insertfunção para fazer isso.
+
+menu.insert([1, 'pizza'])
+print (menu)
+
