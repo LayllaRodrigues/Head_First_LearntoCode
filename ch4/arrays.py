@@ -53,11 +53,25 @@ print(last)
 print(second_last)
 print(third_last)
 
+#EXEMPLO DE LISTA VAZIA
+
+empty_list = []
+
+# Chamamos listas com itens de diferentes tipos de listas heterogêneas . Aqui está um:
+
+heterogêneo = ['azul','verdadeiro', 13,5]
+
+#Acionando indice mais recente:
+
+most_recent = len(smoothies)-1
+recent = smoothies[most_recent]
+
+print   (recent)
+
+
+#com um range é possivel iterar usando um for e obter os indices
 
 
 
-
-
-
-
-
+for i in range (length):
+    print ('smoothies  #',i, smoothies[i])
