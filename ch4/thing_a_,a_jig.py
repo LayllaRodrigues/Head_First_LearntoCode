@@ -17,12 +17,6 @@ while (i >= length):
 print(output)
 
 
-#EXEMPLO DE LISTA VAZIA
 
-empty_list = []
-
-# Chamamos listas com itens de diferentes tipos de listas heterogêneas . Aqui está um:
-
-heterogêneo = ['azul',verdadeiro, 13,5]
 
 
