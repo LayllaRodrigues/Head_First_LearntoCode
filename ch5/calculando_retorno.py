@@ -21,7 +21,6 @@ allow_access('codie')
 allow_access('Dr Evil')
 
 
-print(make_greeting)
 
 
-
+print('kl', computer)
