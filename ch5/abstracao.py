@@ -24,3 +24,7 @@ print("Okay,  we're all done")
 
 
 
+    print ('Hi' + name + '!')
+    print (answer)
+    print (total)
+
