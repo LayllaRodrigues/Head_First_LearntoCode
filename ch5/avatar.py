@@ -15,7 +15,6 @@ if eyes == '':
     eyes = 'blue'
 print('you chose', eyes)
 
-
 gender = input ("what gender [female]?")
 if gender == '':
     gender = 'female'
