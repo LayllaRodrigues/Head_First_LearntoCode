@@ -33,3 +33,6 @@ def greet(name, message = 'You rule!'):
 
 greet('june')
 
+greet('june', 'nice see you!')
+
+
