@@ -23,4 +23,3 @@ allow_access('Dr Evil')
 
 
 
-print('kl', computer)
